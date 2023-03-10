@@ -1,0 +1,91 @@
+/*
+    Whatsapp Color : #128c7e
+    Facebook Color : #4267b2
+*/
+
+/* Start Global */
+
+body {
+    min-height: 100vh;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+.card {
+    border-radius: 10px;
+}
+
+.rounded {
+    border-radius: 10px!important;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* End Global */
+
+
+/* Start Article */
+article {
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+
+h1 {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 35px;
+    color: #adadad;
+    font-weight: normal;
+}
+
+article .sites{
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+form input {
+    margin: 10px 0;
+}
+
+form button {
+    margin-left: auto;
+    display: block !important;
+}
+
+article .sites a {
+    margin-bottom: 15px;
+}
+article .sites img {
+    width: 50px;
+    height: auto;
+}
+
+.border-primary {
+    border-color: #8ab1f7!important;
+}
+
+button[type=submit] i {
+    color: #bbb;
+}
+/* End Article */
+/* Start Media */
+@media (min-width: 992px){
+    form {
+        width: 45%;
+        margin: 0 auto;
+    }
+    article .sites{
+        width: 45%;
+        margin: 0 auto;
+    }
+}
+/* End Media */
